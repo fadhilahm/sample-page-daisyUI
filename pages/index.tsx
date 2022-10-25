@@ -3,6 +3,20 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
+import Alerts from "../components/Alerts";
+import Avatars from "../components/Avatars";
+import Badges from "../components/Badges";
+import Cards from "../components/Cards";
+import Carousels from "../components/Carousels";
+import Collapses from "../components/Collapses";
+import Countdown from "../components/Countdowns";
+import Kbds from "../components/Kbds";
+import Progresses from "../components/Progresses";
+import RadialProgresses from "../components/RadialProgresses";
+import Stats from "../components/Stats";
+import Tables from "../components/Tables";
+import Tooltips from "../components/Tooltips";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -14,6 +28,19 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <Alerts />
+        <Avatars />
+        <Badges />
+        <Cards />
+        <Carousels />
+        <Collapses />
+        <Countdown />
+        <Kbds />
+        <Progresses />
+        <RadialProgresses />
+        <Stats />
+        <Tables />
+        <Tooltips />
       </main>
 
       <footer className={styles.footer}>
@@ -22,7 +49,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{" Tailwind + daisyUI"}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>

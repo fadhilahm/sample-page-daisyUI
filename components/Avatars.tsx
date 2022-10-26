@@ -1,35 +1,61 @@
+import Image from "next/image";
+
 const Avatars = () => {
   return (
     <>
       <div className="avatar">
         <div className="w-24 mask mask-squircle">
-          <img src="https://placeimg.com/192/192/people" />
+          <Image
+            src="https://placeimg.com/192/192/people"
+            layout="fill"
+            alt="Avatar Tailwind CSS Component"
+          />
         </div>
       </div>
       <div className="avatar">
         <div className="w-24 mask mask-hexagon">
-          <img src="https://placeimg.com/192/192/people" />
+          <Image
+            src="https://placeimg.com/192/192/people"
+            layout="fill"
+            alt="Avatar Tailwind CSS Component"
+          />
         </div>
       </div>
       <div className="avatar">
         <div className="w-24 mask mask-triangle">
-          <img src="https://placeimg.com/192/192/people" />
+          <Image
+            src="https://placeimg.com/192/192/people"
+            layout="fill"
+            alt="Avatar Tailwind CSS Component"
+          />
         </div>
       </div>
       <div className="avatar-group -space-x-6">
         <div className="avatar">
           <div className="w-12">
-            <img src="https://placeimg.com/192/192/people" />
+            <Image
+              src="https://placeimg.com/192/192/people"
+              layout="fill"
+              alt="Avatar Tailwind CSS Component"
+            />
           </div>
         </div>
         <div className="avatar">
           <div className="w-12">
-            <img src="https://placeimg.com/192/192/people" />
+            <Image
+              src="https://placeimg.com/192/192/people"
+              layout="fill"
+              alt="Avatar Tailwind CSS Component"
+            />
           </div>
         </div>
         <div className="avatar">
           <div className="w-12">
-            <img src="https://placeimg.com/192/192/people" />
+            <Image
+              src="https://placeimg.com/192/192/people"
+              layout="fill"
+              alt="Avatar Tailwind CSS Component"
+            />
           </div>
         </div>
         <div className="avatar placeholder">
@@ -40,12 +66,20 @@ const Avatars = () => {
       </div>
       <div className="avatar online">
         <div className="w-24 rounded-full">
-          <img src="https://placeimg.com/192/192/people" />
+          <Image
+            src="https://placeimg.com/192/192/people"
+            layout="fill"
+            alt="Avatar Tailwind CSS Component"
+          />
         </div>
       </div>
       <div className="avatar offline">
         <div className="w-24 rounded-full">
-          <img src="https://placeimg.com/192/192/people" />
+          <Image
+            src="https://placeimg.com/192/192/people"
+            layout="fill"
+            alt="Avatar Tailwind CSS Component"
+          />
         </div>
       </div>
     </>

@@ -1,9 +1,15 @@
+import Image from "next/image";
+
 const Cards = () => {
   return (
     <>
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
         <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+          <Image
+            src="https://placeimg.com/400/225/arch"
+            layout="fill"
+            alt="Shoes"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Shoes!</h2>
@@ -15,7 +21,11 @@ const Cards = () => {
       </div>
       <div className="card w-96 bg-base-100 shadow-xl image-full">
         <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+          <Image
+            src="https://placeimg.com/400/225/arch"
+            layout="fill"
+            alt="Shoes"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Shoes!</h2>
@@ -37,7 +47,11 @@ const Cards = () => {
       </div>
       <div className="card w-96 glass">
         <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="car!" />
+          <Image
+            src="https://placeimg.com/400/225/arch"
+            layout="fill"
+            alt="car!"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Life hack</h2>
@@ -49,7 +63,11 @@ const Cards = () => {
       </div>
       <div className="card card-side bg-base-100 shadow-xl">
         <figure>
-          <img src="https://placeimg.com/200/280/arch" alt="Movie" />
+          <Image
+            src="https://placeimg.com/200/280/arch"
+            layout="fill"
+            alt="Movie"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">New movie is released!</h2>

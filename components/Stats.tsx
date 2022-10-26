@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Stats = () => {
   return (
     <>
@@ -55,7 +57,11 @@ const Stats = () => {
           <div className="stat-figure text-secondary">
             <div className="avatar online">
               <div className="w-16 rounded-full">
-                <img src="https://placeimg.com/128/128/people" />
+                <Image
+                  src="https://placeimg.com/128/128/people"
+                  alt="stats"
+                  layout="fill"
+                />
               </div>
             </div>
           </div>

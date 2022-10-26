@@ -9,10 +9,10 @@ import Badges from "../components/Badges";
 import Cards from "../components/Cards";
 import Carousels from "../components/Carousels";
 import Collapses from "../components/Collapses";
-import Countdown from "../components/Countdowns";
+// import Countdown from "../components/Countdowns";
 import Kbds from "../components/Kbds";
 import Progresses from "../components/Progresses";
-import RadialProgresses from "../components/RadialProgresses";
+// import RadialProgresses from "../components/RadialProgresses";
 import Stats from "../components/Stats";
 import Tables from "../components/Tables";
 import Tooltips from "../components/Tooltips";
@@ -32,12 +32,12 @@ const Home: NextPage = () => {
         <Avatars />
         <Badges />
         <Cards />
-        <Carousels />
+        {/* <Carousels /> */}
         <Collapses />
-        <Countdown />
+        {/* <Countdown /> */}
         <Kbds />
         <Progresses />
-        <RadialProgresses />
+        {/* <RadialProgresses /> */}
         <Stats />
         <Tables />
         <Tooltips />

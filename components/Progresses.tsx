@@ -1,7 +1,12 @@
 const Progresses = () => {
   return (
     <>
-      <progress className="progress w-56" value="0" max="100"></progress>
+      <progress
+        style={{}}
+        className="progress w-56"
+        value="0"
+        max="100"
+      ></progress>
       <progress className="progress w-56" value="10" max="100"></progress>
       <progress className="progress w-56" value="40" max="100"></progress>
       <progress className="progress w-56" value="70" max="100"></progress>

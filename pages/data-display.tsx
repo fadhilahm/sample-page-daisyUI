@@ -1,16 +1,16 @@
-import Alerts from "../components/Alerts";
-import Avatars from "../components/Avatars";
-import Badges from "../components/Badges";
-import Cards from "../components/Cards";
-import Carousels from "../components/Carousels";
-import Collapses from "../components/Collapses";
-import Countdown from "../components/Countdowns";
-import Kbds from "../components/Kbds";
-import Progresses from "../components/Progresses";
-import RadialProgresses from "../components/RadialProgresses";
-import Stats from "../components/Stats";
-import Tables from "../components/Tables";
-import Tooltips from "../components/Tooltips";
+import Alerts from "../components/data-display/Alerts";
+import Avatars from "../components/data-display/Avatars";
+import Badges from "../components/data-display/Badges";
+import Cards from "../components/data-display/Cards";
+import Carousels from "../components/data-display/Carousels";
+import Collapses from "../components/data-display/Collapses";
+import Countdown from "../components/data-display/Countdowns";
+import Kbds from "../components/data-display/Kbds";
+import Progresses from "../components/data-display/Progresses";
+import RadialProgresses from "../components/data-display/RadialProgresses";
+import Stats from "../components/data-display/Stats";
+import Tables from "../components/data-display/Tables";
+import Tooltips from "../components/data-display/Tooltips";
 
 const DataDisplay = () => {
   return (
